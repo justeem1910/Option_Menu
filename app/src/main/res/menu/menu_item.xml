@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Share" android:id="@+id/shareItem" />
+    <item android:title="Information" android:id="@+id/infItem">
+        <menu>
+            <item android:title="About" android:id="@+id/aboutItem" />
+            <item android:title="Policy" android:id="@+id/policyItem"/>
+        </menu>
+    </item>
+    <item android:title="System" android:id="@+id/sytemItem"/>
+</menu>
